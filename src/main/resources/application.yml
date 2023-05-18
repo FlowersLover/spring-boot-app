@@ -1,3 +1,5 @@
+server:
+  port: 8081
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/test
@@ -16,5 +18,5 @@ spring:
   # App Properties
 application:
   app:
-    jwtSecret: bezKoderSecretKey
+    jwtSecret: SecretKey
     jwtExpirationMs: 86400000
